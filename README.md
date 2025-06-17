@@ -42,12 +42,12 @@ Skrypt:
 | Sekcja	| Linia w kodzie	| Opis|
 |--------|-----------------|-----|
 |1. Wczytanie danych	| load_breast_cancer	| Ładuje cechy i etykiety z wbudowanego zbioru
-2. Podział danych	|train_test_split	|75 % train / 25 % test, z podziałem stratyfikowanym
-3. Drzewo decyzyjne	|DecisionTreeClassifier	|Trening, predykcja, proba klas
-4. k-NN z normalizacją|	StandardScaler + KNeighborsClassifier|	Skalowanie cech i trening k-NN
-5. Metryki	|accuracy_score, roc_auc_score	|Tworzy metrics_df ze zbiorczymi wynikami
-6. Krzywe ROC	|RocCurveDisplay.from_predictions	|Dwie krzywe w jednym wykresie
-7. Wykres słupkowy	|plt.bar	|Porównanie Accuracy i ROC AUC
+|2. Podział danych	|train_test_split	|75 % train / 25 % test, z podziałem stratyfikowanym
+|3. Drzewo decyzyjne	|DecisionTreeClassifier	|Trening, predykcja, proba klas
+|4. k-NN z normalizacją|	StandardScaler + KNeighborsClassifier|	Skalowanie cech i trening k-NN
+|5. Metryki	|accuracy_score, roc_auc_score	|Tworzy metrics_df ze zbiorczymi wynikami
+|6. Krzywe ROC	|RocCurveDisplay.from_predictions	|Dwie krzywe w jednym wykresie
+|7. Wykres słupkowy	|plt.bar	|Porównanie Accuracy i ROC AUC
 
 ### Opis metryk i wyników
 
